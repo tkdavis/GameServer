@@ -44,7 +44,7 @@ namespace GameServer
                 ServerSend.Welcome(id, "Welcome to the server!");
             }
 
-            private void SendData(Packet _packet)
+            public void SendData(Packet _packet)
             {
                 try
                 {
